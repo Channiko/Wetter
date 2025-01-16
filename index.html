@@ -3,20 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
     <title>Wetter</title>
   </head>
   <body>
    <header>
     <form >
-      <input type="search" placeholder="🔍Enter City here">
-      <input type="submit"value="search">
+      <input type="search" placeholder="🔍Enter City here" class="searchPlace">
+      <input type="submit"value="search" class="searchButton">
     </form>  
    </header>
    <main>
 <h1>
   Antwerpen <br>Today 15:52
   </h1>
-<p><img src="Fotos/Day Sun.png" alt="Wetter"> <br> 30°
+<p><img src="Fotos/Day Sun.png" alt="Wetter" class="main-picture"> <br> 30°
   </p>
   <img src="Fotos/noun-humidity-151847 1.png" alt="humidity"> 15% <img src="Fotos/noun-wind-4507827 1.png" alt="windspeed">3,5 km/h</p>
   
@@ -31,5 +35,6 @@
       and Website hostet on
       <a href="https://my-wetter.netlify.app" target="_blank">Netlify</a>
     </footer>
+  
   </body>
 </html>

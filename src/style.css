@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(90deg, rgba(46, 174, 221, 1) 24%, rgba(51, 170, 221, 1) 74%, rgba(45, 200, 234, 1) 100%);
+    font-family: "Poiret One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.searchPlace {
+    background-color: rgba(16, 64, 132, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.main-picture {
+    max-width: 10%;
+    max-height: 10%;
+}
