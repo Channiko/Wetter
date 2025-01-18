@@ -15,10 +15,12 @@
   <body>
     <div class="app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="🔍Enter City here"
+            required
+            id="search-form-input"
             class="searchPlace"
           />
           <input type="submit" value="search" class="searchButton" />
@@ -50,5 +52,6 @@
         <a href="https://my-wetter.netlify.app" target="_blank">Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
