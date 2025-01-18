@@ -1,17 +1,89 @@
 body {
-    background: linear-gradient(90deg, rgba(46, 174, 221, 1) 24%, rgba(51, 170, 221, 1) 74%, rgba(45, 200, 234, 1) 100%);
+    background: linear-gradient(90deg, rgba(46, 174, 221, 0.33657212885154064) 24%, rgba(51, 170, 221, 0.24693627450980393) 74%, rgba(45, 200, 234, 0.2637429971988795) 100%);
     font-family: "Poiret One", serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
+}
+
+.app {
+    max-width: 600px;
+    margin: 45px auto;
+    background: linear-gradient(90deg, rgba(46, 174, 221, 1) 24%, rgba(51, 170, 221, 1) 74%, rgba(45, 200, 234, 1) 100%);
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 16px;
+    padding: 30px;
+
 }
 
 .searchPlace {
-    background-color: rgba(16, 64, 132, 1);
-    color: rgba(255, 255, 255, 1);
+    background: rgb(40, 139, 194);
+    border: none;
+    border-radius: 6px;
+    width: 80%;
+    font-size: 16px;
+    padding: 15px 20px;
+
+
+}
+
+
+
+.searchButton {
+    background: rgb(40, 139, 194);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.searchButton:hover {
+    cursor: pointer;
 
 }
 
 .main-picture {
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 20%;
+    max-height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 2px;
+}
+
+.humidityWindspeed {
+    background: rgb(40, 139, 194);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+footer {
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+
 }
