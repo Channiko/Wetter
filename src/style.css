@@ -6,6 +6,10 @@ body {
     color: white;
 }
 
+.time {
+    text-align: center;
+}
+
 .app {
     max-width: 600px;
     margin: 45px auto;
