@@ -62,8 +62,11 @@ h1 {
 }
 
 
-h2 {
-    text-align: center;
+.temperatureContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
     font-weight: bold;
     font-size: 60px;
     margin-top: 2px;
@@ -84,6 +87,12 @@ h2 {
     justify-content: space-evenly;
 
 }
+
+.unit {
+    padding-left: 10px;
+}
+
+
 
 footer {
     padding: 30px 0 0 0;
