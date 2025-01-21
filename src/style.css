@@ -48,9 +48,9 @@ body {
 
 }
 
-.main-picture {
-    max-width: 20%;
-    max-height: 20%;
+.weather-app-icon {
+    max-width: 400px;
+    max-height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
