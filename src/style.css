@@ -48,6 +48,12 @@ body {
 
 }
 
+.humidity {
+    display: flex;
+    justify-content: center;
+}
+
+
 .weather-app-icon {
     max-width: 400px;
     max-height: 400px;

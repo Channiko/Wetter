@@ -3,8 +3,8 @@ function refreshweater(response) {
   let temperature = response.data.temperature.current;
   let descriptionElement = document.querySelector("#weaterCondition");
   let cityElement = document.querySelector("#city");
-  let humidityElement = document.querySelector(".humidity");
-  let speedElement = document.querySelector(".windspeed");
+  let humidityElement = document.querySelector("#humidity");
+  let speedElement = document.querySelector("#windspeed");
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
   let iconElement = document.querySelector("#icon");
