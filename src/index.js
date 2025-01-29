@@ -50,7 +50,28 @@ function handleSearchSubmit(event) {
 
   searchCity(searchInput.value);
 }
+function displayforecast() {
+  let days = ["Tue", "Wed", "Thu", "Fri"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+      <div class="weaterForecast"></div>
+      <div class="weaterForecastDay">${day}</div>
+            <div class="weaterforecasticon">🌤️</div>
+            <div class="weaterForecastTemperatures">
+              <div class="weaterForecastTemperature"><strong>18°</strong></div>
+              <div class="weaterForecastTemperature">20°</div>
+            </div>
+          </div>`;
+  });
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 searchCity("Antwerp");
+displayforecast();
