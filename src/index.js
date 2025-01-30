@@ -58,7 +58,7 @@ function displayforecast() {
     forecastHtml =
       forecastHtml +
       `
-      <div class="weaterForecast"></div>
+      <div class="weaterForecast">
       <div class="weaterForecastDay">${day}</div>
             <div class="weaterforecasticon">🌤️</div>
             <div class="weaterForecastTemperatures">

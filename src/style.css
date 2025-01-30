@@ -53,6 +53,10 @@ body {
     justify-content: center;
 }
 
+.windspeed {
+    display: flex;
+    justify-content: center;
+}
 
 .weather-app-icon {
     max-width: 400px;
@@ -109,11 +113,12 @@ h1 {
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
+    justify-content: space-around;
 }
 
 .weaterForecast {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     text-align: center;
 }
 
